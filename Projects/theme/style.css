@@ -1,13 +1,74 @@
 h1 {
-color:red;
+color: #000;
 font-size:3em;
+text-align: center;
 }
 
 h2 {
-color:blue;
+color: black;
 font-size:1em;
+font-style: oblique;
+text-align: center;
 }
 
+h3 {
+font-style: oblique;
+font-stretch: expanded;
+text-align: center;
+background-color: #222;
+color : #ffffff;
+
+}
+
+p {
+text-align: center;
+background-color: gold;
+
+}
 #barf {
 background-color: chartreuse;
+}
+
+li {
+
+  background-color: orange;
+ text-align: center;
+
+}
+
+#poop {
+  color: #ffffff
+  background-color: black;
+  font-style: italic;
+  font-size: 2em;
+}
+
+.backdrop {
+  background-color: red;
+}
+#MyLogoDiv{
+
+  background-color: lightblue;
+
+
+}
+#MyLogo {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height:30%;
+
+}
+
+
+
+
+
+/* blog page below */
+
+.top {
+  background-color: chartreuse;
+  
+
 }
