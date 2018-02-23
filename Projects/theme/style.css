@@ -78,7 +78,7 @@ header {
 }
 .content
 {
-  
+
 }
 
 .container {
@@ -88,10 +88,31 @@ margin-bottom: 0;
 margin-left: auto;
 margin-right: auto;
 }
+
  #footer{
    text-align: center;
  }
 
- #navigation{
+   #navigation {
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 1.3rem;
+     width: 100vw;
+   }
 
- }
+   #navigation ul > li {
+     display: inline;
+     list-style: none;
+}
+
+  #navigation .dropdown{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+#navigation a:hover + .dropdown{
+    display: block;
+}

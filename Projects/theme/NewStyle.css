@@ -1,0 +1,35 @@
+h2 {
+  color: goldenrod;
+  text-align:center;
+
+
+}
+
+.header h1{
+  color: white;
+  text-align: center;
+}
+
+body{
+  
+
+}
+
+.content{
+
+}
+
+#navigation .container .dropdown:hover{
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-color: gray;
+  flex-direction: column;
+  justify-content: space-around;
+}
+  #navigation ul{
+
+  }
+.footer{
+
+}
