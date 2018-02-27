@@ -1,0 +1,8 @@
+  h1 {
+color: goldenrod;
+font-style: bold; italic;
+}
+
+body, html {
+    height: 100%;
+}
